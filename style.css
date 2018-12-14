@@ -1,0 +1,46 @@
+body {
+    background: #353535;
+    color: #fff;
+    font-family: 'Verdana';
+    font-size: 2em;
+    text-align: center;
+}
+
+canvas {
+    border: solid .2em #fff;
+    height: 90vh;
+}
+
+#score {
+    position: absolute;
+    top: 2em;
+    right: 4em;
+}
+
+#legend {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2em;
+    left: 4em;
+    font-size: .5em;
+    padding: 2em;
+    border: solid .2em #fff;
+}
+
+@media screen and (max-width: 768px) {
+    #score {
+        right: 1em;
+    }
+
+    #legend {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 2em;
+        left: 1em;
+        font-size: .3em;
+        padding: .5em;
+        border: solid .1em #fff;
+    }
+}
